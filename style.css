@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#task-list li button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#task-list li button:hover {
+  background-color: #e64a29;
+}
